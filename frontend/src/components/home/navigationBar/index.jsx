@@ -23,7 +23,7 @@ const NavBar = () => {
     <Navbar expand="lg" variant="light" bg={scrolled ? "light" : "transparent"} className={scrolled ? "scrolled" : ""} fixed="top">
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" height="50" />
+          <img src={logo} alt="Logo" height="40" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -31,11 +31,12 @@ const NavBar = () => {
             <Nav.Link href="#features" className='nav-middle-content'>Home</Nav.Link>
             <Nav.Link href="#pricing" className='nav-middle-content'>Travel Guides</Nav.Link>
             <Nav.Link href="#pricing" className='nav-middle-content'>Hotels</Nav.Link>
+            <Nav.Link href="#pricing" className='nav-middle-content'>About Us</Nav.Link>
           </Nav>
           
           <div className="d-flex align-items-center">
-            <Button variant="primary" className="me-4">Sign Up</Button>
-            <Button variant="secondary">Login</Button>
+            <Button  className='me-4 login-btn'>Login</Button>
+            <Button  className="signin-btn">Sign Up</Button>
           </div>
         </Navbar.Collapse>
       </Container>

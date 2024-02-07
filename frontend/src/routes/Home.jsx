@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import NavBar from '../components/home/navigation_bar';
+import NavBar from '../components/home/navigationBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/Home.css';
+import InroDiv from '../components/home/intro';
+import BlogAndReview from '../components/home/blogsAndReviews';
+import PlaceSelection from '../components/home/placeSelection';
+import PopularPlan from '../components/home/popularPlans';
+import Footer from '../components/general/footer';
 
 const Home = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -24,46 +29,11 @@ const Home = () => {
   return (
     <div className='main-div'>
       <NavBar scrolled={scrolled} />
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
-      <h1>dd</h1>
+      <InroDiv />
+      <PopularPlan/>
+      <BlogAndReview/>
+      <PlaceSelection/>
+      <Footer/>
     </div>
   );
 };

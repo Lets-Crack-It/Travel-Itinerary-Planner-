@@ -1,0 +1,27 @@
+.navbar {
+    transition: background-color 0.5s ease;
+  }
+
+.scrolled {
+    background-color: #fff !important;
+    border-bottom: 0.5px solid #ebe7e7;
+  }
+  
+.signin-btn {    
+    background-color: #FF9843 !important;
+    border-color: #FF9843 !important;
+    border-radius: 20px !important;
+    font-weight: bold !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.login-btn {
+  /* background-color: #86A7FC !important;
+  border-color: #86A7FC !important; */
+  color: #000 !important; ;
+  border-radius: 20px !important;
+  font-weight: bold !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}

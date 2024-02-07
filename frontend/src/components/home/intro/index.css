@@ -1,0 +1,70 @@
+.main-container {
+    height: 50vh;
+}
+.text-container {
+    background-color: white;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 40px;
+    /* padding: 20px; */
+  }
+  
+  .background-image {
+    background-image: url('../../../assets/head_div.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+  
+  .diagonal-bg-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .diagonal-bg-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -25%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(-120deg, transparent 50%, white 50%); /* Adjusted gradient direction */
+  }
+  
+  .text-container h1{
+    color: rgb(20, 6, 52);
+    font-weight: bold;
+    margin-right: 50px;
+  }
+
+  .text-container p{
+    color: rgb(173, 175, 175);
+    font-weight:450;
+    font-size: large;
+    margin-right: 50px;
+  }
+
+  .planing-btn{
+    background-color: #FF9843 !important;
+    border-color: #FF9843 !important;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .background-image {
+      height: 40vh; /* Adjust height for smaller screens */
+    }
+
+    .diagonal-bg-container:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -50%;
+        width: 200%;
+        height: 100%;
+        background: linear-gradient(-135deg, transparent 50%, white 50%); /* Adjusted gradient direction */
+      }
+  }
+  
