@@ -1,5 +1,5 @@
 import Home from './routes/Home'
-import './App.css'
+// import './App.css'
 import {Router, Routes, Route} from 'react-router-dom'
 import About from './routes/About';
 import Contact from './routes/Contact';
