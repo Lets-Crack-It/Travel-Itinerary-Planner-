@@ -1,27 +1,128 @@
 .navbar {
-    transition: background-color 0.5s ease;
-  }
-
-.scrolled {
-    background-color: #fff !important;
-    border-bottom: 0.5px solid #ebe7e7;
-  }
-  
-.signin-btn {    
-    background-color: #FF9843 !important;
-    border-color: #FF9843 !important;
-    border-radius: 20px !important;
-    font-weight: bold !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+  transition: background-color 0.5s ease;
 }
 
-.login-btn {
-  /* background-color: #86A7FC !important;
-  border-color: #86A7FC !important; */
-  color: #000 !important; ;
+.normal-scrolled {
+  background-color: transparent !important;
+}
+
+.scrolled {
+  background-color: #fff !important;
+  border-bottom: 0.5px solid #ebe7e7;
+}
+
+.signin-btn {
+  text-align: center !important;
+  background-color: transparent !important;
+  color: #ff9843 !important ;
+  border: 1px solid #ff9843 !important;
+  border-color: #ff9843 !important;
   border-radius: 20px !important;
   font-weight: bold !important;
   padding-left: 15px !important;
   padding-right: 15px !important;
+}
+
+.signin-btn:hover {
+  background-color: #ff9843 !important;
+  color: #fff !important ;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.login-btn {
+  text-align: center !important;
+  background-color: transparent !important;
+  color: #2b3964 !important ;
+  border: 1px solid #2b3964 !important;
+  border-radius: 20px !important;
+  font-weight: bold !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-right: 10px;
+}
+
+.login-btn:hover {
+  background-color: #2b3964 !important;
+  color: #fff !important ;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+.scrolled-nav {
+  visibility: visible !important;
+}
+
+.normal-nav {
+  visibility: hidden !important;
+}
+
+/* .responsive-navbar-nav{
+  color: #FF9843 !important;
+} */
+
+.navbar-toggler {
+  border: none !important;
+  background-color: transparent !important;
+  color: #2b3964 !important;
+  font-size: 1.5rem !important;
+}
+
+.navbar-toggler-icon {
+  /* background-image: url('path_to_custom_icon.svg'); */
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.navbar-toggler-icon:hover {
+  color: #2b3964 !important;
+}
+
+/* Change the background color of the collapsed menu button on hover */
+.navbar-toggler:hover {
+  /* background-color: #f8f9fa !important;  */
+}
+
+.navbar-toggler {
+  padding: 5px 10px;
+  margin-right: 15px;
+}
+
+@media (max-width: 992px) {
+  .credential-div {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .login-btn {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: 0px !important;
+    border: 0px !important;
+    color: #ff9843 !important;
+  }
+
+  .login-btn:hover {
+    background-color: transparent !important;
+    color: #ff9843 !important ;
+  }
+
+  .signin-btn {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border: 0px !important;
+  }
+
+  .signin-btn:hover {
+    background-color: transparent !important;
+    color: #ff9843 !important ;
+  }
+
+  .normal-nav {
+    visibility: visible !important;
+  }
+
+  .normal-scrolled {
+    background-color: #fff !important;
+  }
 }

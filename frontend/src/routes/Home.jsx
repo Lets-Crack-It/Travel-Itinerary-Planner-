@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import NavBar from '../components/home/navigationBar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './style/Home.css';
-import InroDiv from '../components/home/intro';
-import BlogAndReview from '../components/home/blogsAndReviews';
-import PlaceSelection from '../components/home/placeSelection';
-import PopularPlan from '../components/home/popularPlans';
-import Footer from '../components/general/footer';
+import React, { useEffect, useState } from "react";
+import NavBar from "../components/home/navigationBar";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style/Home.css";
+import InroDiv from "../components/home/intro";
+import BlogAndReview from "../components/home/blogsAndReviews";
+import PlaceSelection from "../components/home/placeSelection";
+import PopularPlan from "../components/home/popularPlans";
+import Footer from "../components/general/footer";
 
 const Home = () => {
-    const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,21 +19,21 @@ const Home = () => {
       }
     };
 
-    document.addEventListener('scroll', handleScroll);
+    document.addEventListener("scroll", handleScroll);
 
     return () => {
-      document.removeEventListener('scroll', handleScroll);
+      document.removeEventListener("scroll", handleScroll);
     };
   }, [scrolled]);
 
   return (
-    <div className='main-div'>
+    <div className="main-div">
       <NavBar scrolled={scrolled} />
       <InroDiv />
-      <PopularPlan/>
-      <BlogAndReview/>
-      <PlaceSelection/>
-      <Footer/>
+      <PopularPlan />
+      <BlogAndReview />
+      <PlaceSelection />
+      <Footer />
     </div>
   );
 };

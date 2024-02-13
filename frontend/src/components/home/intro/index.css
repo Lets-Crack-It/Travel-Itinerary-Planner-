@@ -1,70 +1,139 @@
 .main-container {
-    height: 50vh;
+  height: 50vh;
 }
 .text-container {
-    background-color: white;
-    padding-top: 90px;
-    padding-left: 20px;
-    padding-right: 40px;
-    /* padding: 20px; */
-  }
+  background-color: white;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 40px;
+  /* padding: 20px; */
+}
+
+.background-image {
+  background-image: url("https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg.webp");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.diagonal-bg-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.diagonal-bg-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -25%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    -120deg,
+    transparent 50%,
+    white 50%
+  ); /* Adjusted gradient direction */
+}
+
+.text-container h1 {
+  color: rgb(20, 6, 52);
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.text-container p {
+  color: rgb(173, 175, 175);
+  font-weight: 450;
+  font-size: large;
+  margin-right: 50px;
+}
+
+.planing-btn {
+  background-color: #ff9843 !important;
+  border-color: #ff9843 !important;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.buttons .exporemore-btn1 {
+  transition: all 0.4s ease-in;
+  background-color: #2b3964;
   
+  border: 1px solid #2b3964;
+  outline: none;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 15px;
+  margin: 2rem 0;
+  transform: translateY(4px);
+  text-align: center;
+  color: #fff;
+}
+
+.buttons .exporemore-btn1:hover {
+  transform: scale(0.95);
+  background-color: transparent;
+  border: 1px solid #2b3964;
+  color: #2b3964;
+}
+
+@media (max-width: 992px) {
   .background-image {
-    background-image: url('../../../assets/head_div.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
+    height: 40vh; /* Adjust height for smaller screens */
+    display: none; 
   }
-  
-  .diagonal-bg-container {
-    position: relative;
-    overflow: hidden;
-  }
-  
+
   .diagonal-bg-container:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
-    right: -25%;
+    right: -50%;
     width: 200%;
     height: 100%;
-    background: linear-gradient(-120deg, transparent 50%, white 50%); /* Adjusted gradient direction */
-  }
-  
-  .text-container h1{
-    color: rgb(20, 6, 52);
-    font-weight: bold;
-    margin-right: 50px;
+    background: linear-gradient(
+      -135deg,
+      transparent 50%,
+      white 50%
+    ); /* Adjusted gradient direction */
   }
 
-  .text-container p{
-    color: rgb(173, 175, 175);
-    font-weight:450;
-    font-size: large;
-    margin-right: 50px;
+  .text-container h1 {
+    text-align: center;
   }
 
-  .planing-btn{
-    background-color: #FF9843 !important;
-    border-color: #FF9843 !important;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 20px;
+  .text-container p {
+    text-align: center;
   }
 
-  @media (max-width: 768px) {
-    .background-image {
-      height: 40vh; /* Adjust height for smaller screens */
-    }
-
-    .diagonal-bg-container:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: -50%;
-        width: 200%;
-        height: 100%;
-        background: linear-gradient(-135deg, transparent 50%, white 50%); /* Adjusted gradient direction */
-      }
+  .buttons {
+    text-align: center;
   }
-  
+
+  .text-container {
+    background-color: white;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-image {
+    height: 40vh; /* Adjust height for smaller screens */
+  }
+
+  .diagonal-bg-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      -135deg,
+      transparent 50%,
+      white 50%
+    ); /* Adjusted gradient direction */
+  }
+}
