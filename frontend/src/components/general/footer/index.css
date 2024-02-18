@@ -1,5 +1,130 @@
-.main-container5 {
-    height: 10vh;
-    background-color: rgb(42, 49, 49);
+.footer-main-container {
+    height: 30vh;
+    background-color: #2b3964;
     color: #fff;
 }
+
+.footer-main-container .footer-main-inner-div{
+    /* background-color: aqua; */
+    height: 100%;
+
+}
+
+.footer-main-container .footer-inner-div1{
+    /* background-color: rgb(149, 56, 133); */
+    height: 85%;
+
+}
+
+.footer-main-container .footer-inner-div2{
+    /* background-color: rgb(166, 99, 70); */
+    height: 15%;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    font-size: 14px;
+    
+}
+
+.footer-main-container .footer-inner-div1-1-header{
+    padding-left: 5px;
+    /* background-color: rgb(102, 152, 217); */
+    /* height: 15%; */
+
+}
+
+.footer-main-container .footer-inner-div1-1-content{
+    padding-left: 5px;
+    /* background-color: rgb(59, 25, 10); */
+    /* height: 65%; */
+}
+
+.footer-main-container .footer-inner-div1-1-socialLink{
+    /* background-color: rgb(185, 212, 51); */
+    margin: 10px 0;
+    /* height: 20%; */
+}
+
+.footer-main-container .footer-inner-div1-2{
+    /* background-color: rgb(71, 153, 9); */
+}
+
+.footer-main-container .footer-inner-div1-1-content1{
+    /* background-color: rgb(4, 33, 45); */
+}
+
+.footer-main-container .footer-inner-div1-1-content2{
+    /* background-color: rgb(240, 21, 164); */
+}
+
+.footer-main-container .footer-inner-div1-1-header p{
+    font-size:24px;
+    font-weight: bolder;
+}
+
+.footer-inner-div1-1-content p{
+    margin: 0;
+}
+
+.footer-inner-div1-1-socialLink button{
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: larger;
+    margin-right: 5px;
+    color: #fff;
+    border: none;
+    
+}
+
+.email-input {
+    height: 50px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .email-input:focus {
+    border:none;
+  }
+  
+  .submit-button {
+    height: 50px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .submit-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .footer-link {    
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+  }
+
+  .footer-inner-div2 a{
+    /* margin: auto; */
+  }
+
+@media (max-width: 720px) {
+    .footer-main-container {
+        height: 50vh;
+        /* background-color: #54642b; */
+    }
+
+    .footer-main-container .footer-inner-div2{
+      font-size: 12px;
+      
+  }
+  }

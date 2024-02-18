@@ -7,6 +7,7 @@ import BlogAndReview from "../components/home/blogsAndReviews";
 import PlaceSelection from "../components/home/placeSelection";
 import PopularPlan from "../components/home/popularPlans";
 import Footer from "../components/general/footer";
+import OurService from "../components/home/ourServices";
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -30,9 +31,10 @@ const Home = () => {
     <div className="main-div">
       <NavBar scrolled={scrolled} />
       <InroDiv />
+      <OurService/>
       <PopularPlan />
-      <BlogAndReview />
       <PlaceSelection />
+      <BlogAndReview />
       <Footer />
     </div>
   );

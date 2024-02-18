@@ -1,5 +1,7 @@
-.main-container4 {
+.placeselection-main-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
     height: 40vh;
-    background-color: rgb(217, 127, 225);
+    /* background-color: rgb(217, 127, 225); */
     color: #fff;
 }
