@@ -145,14 +145,14 @@
 @media (max-width: 986px) {
   .background {
     height: 40%;
-  transform: translateY(255%);
+    transform: translateY(255%);
   }
 }
 
 @media (max-width: 768px) {
   .background {
     height: 40%;
-  transform: translateY(355%);
+    transform: translateY(355%);
   }
 }
 
@@ -161,14 +161,14 @@
     font-size: large;
   }
   .background {
-  transform: translateY(345%);
+    transform: translateY(345%);
   }
 }
 
 @media (max-width: 640px) {
   .background {
     height: 40%;
-  /* transform: translateY(340%);
+    /* transform: translateY(340%);
   background-color: rgb(224, 205, 114); */
   }
   .inner-div2 {
@@ -182,7 +182,7 @@
     right: 10px;
   }
   .div-header-content-text {
-    font-size:medium;
+    font-size: medium;
   }
 }
 
@@ -191,4 +191,3 @@
     transform: translateY(355%);
   }
 }
-

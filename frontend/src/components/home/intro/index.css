@@ -6,7 +6,6 @@
   padding-top: 90px;
   padding-left: 20px;
   padding-right: 40px;
-  /* padding: 20px; */
 }
 
 .background-image {
@@ -28,11 +27,7 @@
   right: -25%;
   width: 200%;
   height: 100%;
-  background: linear-gradient(
-    -120deg,
-    transparent 50%,
-    white 50%
-  ); /* Adjusted gradient direction */
+  background: linear-gradient(-120deg, transparent 50%, white 50%);
 }
 
 .text-container h1 {
@@ -59,7 +54,7 @@
 .buttons .exporemore-btn1 {
   transition: all 0.4s ease-in;
   background-color: #2b3964;
-  
+
   border: 1px solid #2b3964;
   outline: none;
   font-weight: 700;
@@ -80,8 +75,8 @@
 
 @media (max-width: 992px) {
   .background-image {
-    height: 40vh; /* Adjust height for smaller screens */
-    display: none; 
+    height: 40vh;
+    display: none;
   }
 
   .diagonal-bg-container:before {
@@ -91,11 +86,7 @@
     right: -50%;
     width: 200%;
     height: 100%;
-    background: linear-gradient(
-      -135deg,
-      transparent 50%,
-      white 50%
-    ); /* Adjusted gradient direction */
+    background: linear-gradient(-135deg, transparent 50%, white 50%);
   }
 
   .text-container h1 {
@@ -120,7 +111,7 @@
 
 @media (max-width: 768px) {
   .background-image {
-    height: 40vh; /* Adjust height for smaller screens */
+    height: 40vh;
   }
 
   .diagonal-bg-container:before {
@@ -130,10 +121,6 @@
     right: -50%;
     width: 200%;
     height: 100%;
-    background: linear-gradient(
-      -135deg,
-      transparent 50%,
-      white 50%
-    ); /* Adjusted gradient direction */
+    background: linear-gradient(-135deg, transparent 50%, white 50%);
   }
 }

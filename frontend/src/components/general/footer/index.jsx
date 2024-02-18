@@ -66,11 +66,24 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-inner-div2 col-12 d-flex justify-content-center">
-          <a href="#" className="footer-link">Website Terms </a> | 
-          <a href="#" className="footer-link"> Privacy Policy </a> | 
-          <a href="#" className="footer-link"> Accessibility Statement </a> | 
-          <a href="#" className="footer-link"> Do Not Sell My Information</a>
-        
+          <a href="#" className="footer-link">
+            Website Terms{" "}
+          </a>{" "}
+          |
+          <a href="#" className="footer-link">
+            {" "}
+            Privacy Policy{" "}
+          </a>{" "}
+          |
+          <a href="#" className="footer-link">
+            {" "}
+            Accessibility Statement{" "}
+          </a>{" "}
+          |
+          <a href="#" className="footer-link">
+            {" "}
+            Do Not Sell My Information
+          </a>
         </div>
       </div>
     </div>

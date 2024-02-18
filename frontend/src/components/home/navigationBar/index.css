@@ -67,7 +67,6 @@
 }
 
 .navbar-toggler-icon {
-  /* background-image: url('path_to_custom_icon.svg'); */
   width: 30px !important;
   height: 30px !important;
 }
@@ -76,7 +75,6 @@
   color: #2b3964 !important;
 }
 
-/* Change the background color of the collapsed menu button on hover */
 .navbar-toggler:hover {
   /* background-color: #f8f9fa !important;  */
 }

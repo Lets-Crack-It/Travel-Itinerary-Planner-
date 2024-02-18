@@ -89,14 +89,22 @@ const BlogAndReview = () => {
     const stars = [];
     for (let i = 0; i < 5; i++) {
       if (i < rating) {
-        stars.push(<span key={i} className="star">&#9733;</span>); // Full star
+        stars.push(
+          <span key={i} className="star">
+            &#9733;
+          </span>
+        ); // Full star
       } else {
-        stars.push(<span key={i} className="star">&#9734;</span>); // Empty star
+        stars.push(
+          <span key={i} className="star">
+            &#9734;
+          </span>
+        ); // Empty star
       }
     }
     return stars;
   };
-  
+
   return (
     <div className="blog-main-container d-flex flex-column jusify-content-center align-items-center">
       <div className="blog-inner-div1 d-flex flex-column justify-content-center align-items-center">
@@ -148,7 +156,7 @@ const BlogAndReview = () => {
                   <div class="card ">
                     <div class="card-img-overlay d-flex flex-column ">
                       <div className="">
-                      <div className="stars">{renderStars(item.rating)}</div>
+                        <div className="stars">{renderStars(item.rating)}</div>
                       </div>
                       <div className="d-flex review-content">
                         <p>{item.feedback}</p>

@@ -1,11 +1,10 @@
 .main-div {
-    background-color: #ffffff;
-    /* padding-top: 60px; */
-    
-  }
+  background-color: #ffffff;
+  /* padding-top: 60px; */
+}
 
-.nav-middle-content{
-    color: #000000;
-    font-weight: bold;
-    font-size: 16px;
+.nav-middle-content {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
 }

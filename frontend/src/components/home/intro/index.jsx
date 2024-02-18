@@ -15,7 +15,6 @@ const InroDiv = () => {
               designed for vacations & road trips
             </p>
             <div class="buttons">
-              {/* <button class="btn planing-btn">Start Planing</button> */}
               <Button as="a" href="#" filled className="exporemore-btn1">
                 Start Planing
               </Button>

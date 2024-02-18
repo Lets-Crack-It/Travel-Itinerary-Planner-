@@ -31,7 +31,7 @@ const Home = () => {
     <div className="main-div">
       <NavBar scrolled={scrolled} />
       <InroDiv />
-      <OurService/>
+      <OurService />
       <PopularPlan />
       <PlaceSelection />
       <BlogAndReview />
