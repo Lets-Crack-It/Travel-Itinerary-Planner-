@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="footer-inner-div1 d-flex col-12 flex-column flex-md-row flex-lg-row">
           <div className="footer-inner-div1-1 col-12 col-md-6 col-lg-6 ">
             <div className="footer-inner-div1-1-header">
-              <p>Wanderlog</p>
+              <p>Trippify</p>
             </div>
             <div className="footer-inner-div1-1-content d-flex ">
               <div className="footer-inner-div1-1-content1 d-flex col-6 col-md-6 col-lg-6 flex-column">

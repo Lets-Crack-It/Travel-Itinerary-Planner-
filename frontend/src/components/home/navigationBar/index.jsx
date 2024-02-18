@@ -36,7 +36,7 @@ const NavBar = () => {
     >
       <Container className="nav-container">
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" height="40" />
+          <img src={logo} alt="Logo" height="40"  />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
